@@ -174,10 +174,11 @@ body {
   font-size: 26px;
   font-family: "Fraunces-Bold";
 }
-.main-container .card-container .card-body .product-pricing h4 {
+.main-container .card-container .card-body .product-pricing span {
   font-size: 12px;
   color: var(--clr-04);
   text-decoration: line-through;
+  font-weight: 600;
 }
 .main-container .card-container .card-body .add-cart {
   position: absolute;
