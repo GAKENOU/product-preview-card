@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Mentor]()
-- Live Site URL: [Netlify]()
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-product-preview-card-using-html-and-css-sxrK_-rgNU)
+- Live Site URL: [Netlify](https://dotcom-product-preview-card.netlify.app/)
 
 ## My process
 
