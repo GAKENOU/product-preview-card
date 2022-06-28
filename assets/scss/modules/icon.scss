@@ -1,0 +1,11 @@
+.ic {
+    &-flx {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &-icon-cart {
+        content: url(../scss/icons/ic-icon-cart.svg);
+    }
+}

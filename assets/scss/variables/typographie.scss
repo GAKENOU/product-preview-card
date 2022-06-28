@@ -1,0 +1,19 @@
+/*! Font family  */
+$font_url_1: "../fonts/fraunces/Fraunces-Regular.ttf";
+$font_url_2: "../fonts/fraunces/Fraunces-Bold.ttf";
+$font_url_3: "../fonts/fraunces/Fraunces-Light.ttf";
+
+$font_url_4: "../fonts/montserrat/Montserrat-Regular.ttf";
+$font_url_5: "../fonts/montserrat/Montserrat-Bold.ttf";
+$font_url_6: "../fonts/montserrat/Montserrat-Light.ttf";
+
+$font_family: (
+    "Fraunces-Regular": $font_url_1, "Fraunces-Bold": $font_url_2, "Fraunces-Light": $font_url_3,
+    "Montserrat-Regular": $font_url_4, "Montserrat-Bold": $font_url_5, "Montserrat-Light": $font_url_6,
+);
+
+/*! Font size  */
+$sizes: 7, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 36, 28, 30, 32, 34, 38, 40, 45, 48, 50, 60, 62, 64, 70, 80, 90;
+
+/*! Font weight size  */
+$fnt-wgh-sizes: 100, 200, 300, 400, 500, 600, 700, 800, 900, bold, bolder, lighter;

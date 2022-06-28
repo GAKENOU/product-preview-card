@@ -1,0 +1,21 @@
+:root,
+.theme-01 {
+    $colors_vr : (
+        '01': hsl(158, 36%, 37%), '02': hsl(30, 38%, 92%), '03': hsl(212, 21%, 14%), 
+        '04': hsl(228, 12%, 48%), '05': hsl(0, 0%, 100%)
+    );
+    @each $clr, $hex in $colors_vr {
+        --clr-#{$clr}: #{$hex};
+    }
+
+}
+
+.theme-02 {
+    --clr-primary: hsl(158, 36%, 37%);
+}
+
+$color-01: var(--clr-01);
+$color-02: var(--clr-02);
+$color-03: var(--clr-03);
+$color-04: var(--clr-04);
+$color-05: var(--clr-05);

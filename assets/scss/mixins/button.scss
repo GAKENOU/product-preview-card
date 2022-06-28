@@ -1,0 +1,21 @@
+@mixin btn-style($background-color, $text-color, $has-border) {
+    padding: 10px 15px;
+    background: $background-color!important;
+    border: #{$has-border}!important;
+    color: #{$text-color}!important;
+    border-color: unset;
+    border-radius: 9px;
+    font-family: 'Montserrat-Regular';
+    &:focus,
+    &:active {
+        outline: 0;
+        border-color: unset!important;
+        box-shadow: unset!important;
+        background-color: #1a4031!important;
+    }
+    &:hover {
+        background-color: #1a4031!important;
+        border-color: $has-border;
+        color: #{$text-color}!important;
+    }
+}

@@ -1,0 +1,5 @@
+.btn {
+    &-primary {
+        @include btn-style($color-01, #fff, unset);
+    }
+}
